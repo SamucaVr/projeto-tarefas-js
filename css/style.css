@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8576FF;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #fff;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 720px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+input {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #4a1f86;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 20px;
+    border: 1px solid #4a1f86;
+    border-radius: 5px;
+    outline: none;
+}
+
+.adicionarTarefa {
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #7627dc;
+    color: #dcc4fc;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.adicionarTarefa:hover {
+    background-color: #36106b;
+    color: #8d66c0;
+}
+
+table {
+    background-color: #36106b;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+table th {
+    border-right: 1px solid #8576FF;
+}
+
+table td {
+    border: 1px solid #8576FF;
+    padding: 10px;
+    text-align: center;
+}
+
+table button {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8em;
+    cursor: pointer;
+    margin: 0 5px;
+}
+table button:hover {
+    background-color: #8d66c0;
+    color: #fff;
+}
+
+.ultimo {
+    border: none;
+}
